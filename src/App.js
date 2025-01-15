@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./App.css";
+import ProductForm from "./components/ProductForm";
 
-function App() {
+export default function App() {
   return (
-    <div></div>
+    <>
+      <ProductForm />
+    </>
   );
 }
-
-export default App;
